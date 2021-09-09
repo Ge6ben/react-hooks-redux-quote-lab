@@ -13,7 +13,6 @@ beforeEach(() => {
     </Provider>
   );
 });
-
 test('renders an h1 tag with "Quote Maker"', () => {
   const header = screen.queryByText(/Quote Maker/g);
 
